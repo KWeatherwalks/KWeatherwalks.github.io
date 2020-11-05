@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Kevin Weatherwalks
+title: Home
 
 # Your name to show in the footer
 author: Kevin Weatherwalks
@@ -39,10 +39,9 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "kevin.weatherwalks@gmail.com"
+  github: KWeatherwalks
+  twitter: kweatherwalks
 #  patreon: DeanAttali
 #  reddit: yourname
 #  linkedin: daattali
