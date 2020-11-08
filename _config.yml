@@ -40,11 +40,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
 #   email: "kevin.weatherwalks@gmail.com"
-#   facebook: deanattali
+  linkedin: "kevin-weatherwalks"
   github: KWeatherwalks
   twitter: kweatherwalks
   stackoverflow: "9882940/kevin-weatherwalks"
-#   reddit: KWeatherwalks
 #  patreon: "Kevin Weatherwalks"
 #  reddit: kweatherwalks
 #  linkedin: "/in/kevin-weatherwalks"
