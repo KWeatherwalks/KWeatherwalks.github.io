@@ -15,10 +15,10 @@ author: Kevin Weatherwalks
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+#   Resources:
+#     - Beautiful Jekyll: "https://beautifuljekyll.com"
+#     - Learn markdown: "https://www.markdowntutorial.com/"
+#   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -44,9 +44,9 @@ social-network-links:
   twitter: kweatherwalks
 #  patreon: DeanAttali
 #  reddit: yourname
-#  linkedin: daattali
+ linkedin: kevin-weatherwalks
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+ stackoverflow: "7879318/kevin-weatherwalks"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
@@ -76,7 +76,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "kevinweatherwalks.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
