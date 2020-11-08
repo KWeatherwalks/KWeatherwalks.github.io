@@ -15,10 +15,11 @@ author: Kevin Weatherwalks
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+  Blog: "Blog"
+#   Resources:
+#     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: ""
+#   Author's home: ""
 
 # --- Logo --- #
 
@@ -44,7 +45,7 @@ social-network-links:
   twitter: kweatherwalks
 #  patreon: DeanAttali
 #  reddit: yourname
- linkedin: kevin-weatherwalks
+ linkedin: "kevin-weatherwalks"
 #  xing: yourname
  stackoverflow: "7879318/kevin-weatherwalks"
 #  snapchat: deanat78
