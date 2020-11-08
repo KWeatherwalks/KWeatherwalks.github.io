@@ -39,13 +39,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "kevin-weatherwalks@gmail.com"
+  email: "kevin.weatherwalks@gmail.com"
 #   facebook: deanattali
   github: KWeatherwalks
   twitter: kweatherwalks
 #  patreon: DeanAttali
 #  reddit: yourname
- linkedin: "kevin-weatherwalks"
+ linkedin: kevin-weatherwalks
 #  xing: yourname
 #  stackoverflow: "7879318/kevin-weatherwalks"
 #  snapchat: deanat78
