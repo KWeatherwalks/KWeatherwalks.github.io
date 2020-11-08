@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Home
 
 # Your name to show in the footer
-author: Some Person
+author: Kevin Weatherwalks
 
 # --- List of links in the navigation bar --- #
 
@@ -39,15 +39,15 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "kevin-weatherwalks@gmail.com"
+#   facebook: deanattali
+  github: KWeatherwalks
+  twitter: kweatherwalks
 #  patreon: DeanAttali
 #  reddit: yourname
-#  linkedin: daattali
+ linkedin: "kevin-weatherwalks"
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+ stackoverflow: "7879318/kevin-weatherwalks"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
