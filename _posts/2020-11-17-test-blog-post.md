@@ -116,3 +116,5 @@ Let me be clear about the conclusions that can be drawn from conducting this ana
 [7]: https://www2.ed.gov/admins/lead/account/stateplan17/decsa2017.pdf
 
 [8]: https://studentprivacy.ed.gov/sites/default/files/resource_document/file/FAQs_disclosure_avoidance_0.pdf
+
+Cover photo: <span>Photo by <a href="https://unsplash.com/@bimarahmanda?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bima Rahmanda</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
