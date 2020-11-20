@@ -15,7 +15,10 @@ In this sense, race *does not exist* as the differences within any group of peop
 A second definition involves the common groups of people that arise as a result of this sorting. As such, studies involving race which are useful center around the sociological effects of using these labels as identities by examining how the systems we create—and the policies we enact—negatively impact people ascribed to or identifying with these labels. I strongly feel that we need to be able to identify the systems that permit racial inequities to persist so we can enact antiracist policies.[Kendi]
 
 ## Introduction
-It is well documented that there is racial inequity in student discipline so this analysis won't reveal anything that we don't already know.[cite] 
+I recently started to volunteer my technical skills to a local nonprofit in the space of juvenile justice that has sought to gain a better understanding of how Delaware’s justice systems impact the lives of different demographics, particularly people of color. Before they have  interactions with the juvenile court system, students often face disciplinary action in school. 
+In this article, we use some statistical techniques to try to understand whether that treatment is fair or if racial bias is present in a school's approach to discipline.
+
+As an aside, it is well documented that there is racial inequity in student discipline so this analysis won't reveal anything that we don't already know.[cite]
 
 See the [notebook](https://github.com/KWeatherwalks/DSPortfolio/blob/main/Christina_high_schools_discipline.ipynb) on Github for more details.
 
