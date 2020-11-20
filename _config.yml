@@ -15,8 +15,8 @@ author: Kevin Weatherwalks
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Lambda School: "https://lambdaschool.com"
+#   Resources:
+#     - Lambda School: "https://lambdaschool.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
 #   Author's home: "https://deanattali.com"
 
