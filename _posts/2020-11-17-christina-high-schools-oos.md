@@ -5,7 +5,7 @@ subtitle: An Analysis of Discipline and Race in the Christina School District
 cover-img: /assets/blogresources/bima-rahmanda-4mPo9OVEg7g-unsplash.jpg
 thumbnail-img: /assets/blogresources/bima-rahmanda-4mPo9OVEg7g-unsplash.jpg
 share-img: /assets/blogresources/bima-rahmanda-4mPo9OVEg7g-unsplash.jpg
-tags: [justice, statistics, antiracist]
+tags: [juvenile justice, hypothesis testing, antiracist]
 ---
 
 ## Foreword
