@@ -53,12 +53,11 @@ Christiana High School
 |White            | 14(15.4) |  31(29.6) |
 |Other            |  3(11.0) |  29(21.0) |
 
-$\chi^2(3, N=254) = 21.47$  
-$p < .001$ 	 8.399975101724077e-05  
+$\chi^2(3, N=254) = 21.47$, 
+$p < .001$ 
 Reject $H_0$ at the 0.017 significance level  
-<p align="center">
-  <img src="/assets/blogresources/mosaic_390.svg" width="525">
-</p>
+<img src="/assets/blogresources/mosaic_390.svg" width="525">
+
 
 --------------------------------------
 
@@ -72,8 +71,7 @@ Glasgow High School
 |White            |  9(16.6) |   53(45.4)|
 |Other            |  4(5.9) |    18(16.1)|
 
-$\chi^2(3, N=352) = 12.54$  
-$p = .0057$  
+$\chi^2(3, N=352) = 12.54$, $p = .0057$  
 Reject $H_0$ at the 0.017 significance level  
   <img src="/assets/blogresources/mosaic_392.svg" width="525">
 
@@ -87,12 +85,11 @@ Newark High School
 | African American | 86(57.7) |  131(159.3)|
 | Other            | 11(38.0) |   132(105.0)|
 
-$\chi^2(2, N=440) = 45.17$  
-$p<.001$ 	 1.552079010862875e-10  
-Reject $H_0$ at the 0.017 significance level  
-<p align="center">
-  <img src="/assets/blogresources/mosaic_394.svg" width="525">
-</p>
+$\chi^2(2, N=440) = 45.17$, 
+$p<.001$  
+Reject $H_0$ at the 0.017 significance level 
+<img src="/assets/blogresources/mosaic_394.svg" width="525">
+
 
 # Conclusion
 I need to be clear about the conclusions that can be drawn from conducting this analysis. The analysis presented here cannot explain *why* there are differences in disciplinary action due to racial identity. It can only illuminate the reality that such differences exist so that further inquiry may reveal the causal factors.  
