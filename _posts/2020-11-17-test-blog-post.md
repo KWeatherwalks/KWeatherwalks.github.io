@@ -36,12 +36,11 @@ Set the significance at the standard $\alpha=0.05$ and correct for multiple comp
 ## Socrata Open Data
 The dataset we will be using is from the data.delaware.gov open data portal \[[1]\] which we will access via Socrata's API endpoints. Through this endpoint, the data comes to us in JSON format and by default is limited to 1000 rows. We can get all the 653,417 rows of the data by appending the url with `$limit=654000` \[[2]\]
 
-## Filter functions
-The format of the dataset contains many rows 
-
-[insert picture of dataset snippet]
-
 ## Set up Contingency Tables
+### Filter functions
+The dataset contains rows consisting of aggregated counts of disciplinary action by subgroup, a derivative of the race, gender and special demo categories. In order to create a two-way (contingency) table with the race category as the index and out-of-school suspension vs. no out-of-school suspension as the columns, we need to filter the dataset. 
+[insert picture of dataset snippet]
+There is no column for counts of no out-of-school suspension, so we have to create that column using some feature engineering.
 
 
 # Results and Visualizations
