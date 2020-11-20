@@ -38,7 +38,9 @@ Set the significance at the standard $\alpha=0.05$ and correct for multiple comp
 ## Data Wrangling
 ### Socrata Open Data
 The dataset we will be using is from the data.delaware.gov open data portal which we will access via Socrata's API endpoints.\[[1]\]  
-<img src="/assets/blogresources/student_discipline_api.png" width="525">  
+
+<img src="/assets/blogresources/Student_Discipline_API.png" width="525">  
+
 Through this endpoint, the data comes to us in JSON format and by default is limited to 1000 rows. We can get all the 653,417 rows of the data by appending the url with `$limit=654000` \[[2]\]
 
 
