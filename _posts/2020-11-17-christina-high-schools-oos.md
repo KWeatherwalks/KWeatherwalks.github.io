@@ -107,7 +107,7 @@ I know what you're probably thinking. Why is this white cisgender man doing an a
 
 ## References
 
-[1]: https://data.delaware.gov/Education/Student-Discipline/yr4w-jdi4 {:target="_blank"} "Student Discipline Data on the Open Data Portal"
+[1]: https://data.delaware.gov/Education/Student-Discipline/yr4w-jdi4 "Student Discipline Data on the Open Data Portal"
 
 [2]: https://support.socrata.com/hc/en-us/articles/202949268-How-to-query-more-than-1000-rows-of-a-dataset
 
