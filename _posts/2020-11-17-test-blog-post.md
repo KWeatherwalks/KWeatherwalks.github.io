@@ -48,10 +48,7 @@ Glasgow High School
 $\chi^2(3, N=352) = 12.54$  
 $p = .0057$  
 Reject $H_0$ at the 0.017 significance level  
-
-<p align=center">
   <img src="/assets/blogresources/mosaic_392.svg" width="525">
-</p>
 
 --------------------------------------
 
