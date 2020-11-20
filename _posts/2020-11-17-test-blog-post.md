@@ -18,7 +18,7 @@ A second definition involves the common groups of people that arise as a result 
 # Introduction
 It is well documented that there is racial inequity in student discipline so this analysis won't reveal anything that we don't already know. 
 
-See the notebook on Github.
+See the [notebook](https://github.com/KWeatherwalks/DSPortfolio/blob/main/Christina_high_schools_discipline.ipynb) on Github for more details.
 
 ## Research Question
 Like any research project, my questions were very broad at the beginning and soon narrowed to something that was answerable with the data provided.  
