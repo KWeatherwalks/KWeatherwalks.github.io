@@ -2,7 +2,7 @@
 layout: post
 title: This is only a test
 subtitle: A subtitle of the test by Kevin Weatherwalks
-cover-img: /assets/img/path.jpg
+cover-img: /assets/blogresources/bima-rahmanda-4mPo9OVEg7g-unsplash.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [books, test]
