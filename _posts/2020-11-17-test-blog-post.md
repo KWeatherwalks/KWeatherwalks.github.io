@@ -16,6 +16,7 @@ The dataset we will be using is from the data.delaware.gov open data portal \[[1
 We set the significance at the standard $`\alpha=0.05`$ and correct for multiple comparisons using Bonferroni. With 3 comparisons we have an adjusted significance level, $`\alpha^\prime`$ for each test of about $`0.016`$. If our 
 
 Christiana High School
+
 |race             | OOS | no_OOS|
 |:--------------- | ---:| -----:|
 |Hispanic/Latino  |  8(14.4) |  34(27.6) |
@@ -30,6 +31,7 @@ Reject H_0 at the 0.017 significance level
 
 --------------------------------------
 Glasgow High School
+
 |race             | OOS | no_OOS|
 |:--------------- | ---:| -----:|
 |Hispanic/Latino  | 21(25.6) |   75(70.4)|
@@ -45,6 +47,7 @@ Reject H_0 at the 0.017 significance level
 
 --------------------------------------
 Newark High School
+
 | race             | OOS | no_OOS|
 |:---------------- | ---:| -----:|
 | Hispanic/Latino  | 20(21.3) |   60(58.7)|
