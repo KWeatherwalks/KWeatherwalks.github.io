@@ -13,7 +13,6 @@ How do we make a test post?
 ## Socrata Open Data
 The dataset we will be using is from the data.delaware.gov open data portal \[[1]\] which we will access via Socrata's API endpoints. Through this endpoint, the data comes to us in JSON format and by default is limited to 1000 rows. We can get all the 653,417 rows of the data by appending the url with `$limit=654000` \[[2]\]
 
-We set the significance at the standard \[\alpha=0.05\] and correct for multiple comparisons using Bonferroni. With 3 comparisons we have an adjusted significance level, $`\alpha^\prime`$ for each test of about $`0.016`$. If our 
 
 Christiana High School
 
@@ -24,7 +23,7 @@ Christiana High School
 |White            | 14(15.4) |  31(29.6) |
 |Other            |  3(11.0) |  29(21.0) |
 
-$chi^2(3, N=254) = 21.47$
+$\chi^2(3, N=254) = 21.47$
 $p < .001$ 	 8.399975101724077e-05
 Reject H_0 at the 0.017 significance level
 
@@ -38,7 +37,7 @@ Glasgow High School
 |White            |  9(16.6) |   53(45.4)|
 |Other            |  4(5.9) |    18(16.1)|
 
-$chi^2(3, N=352) = 12.54$
+$\chi^2(3, N=352) = 12.54$
 $p = .0057$
 Reject H_0 at the 0.017 significance level
 
@@ -51,7 +50,7 @@ Newark High School
 | African American | 86(57.7) |  131(159.3)|
 | Other            | 11(38.0) |   132(105.0)|
 
-$chi^2(2, N=440) = 45.17$
+$\chi^2(2, N=440) = 45.17$
 $p<.001$ 	 1.552079010862875e-10
 degrees of freedom:  2
 
