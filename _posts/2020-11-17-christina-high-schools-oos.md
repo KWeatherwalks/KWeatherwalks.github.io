@@ -20,7 +20,7 @@ In this article, we use some statistical techniques to try to understand whether
 
 As an aside, it is well documented that there is racial inequity in student discipline so this analysis won't reveal anything that we don't already know.[cite]
 
-See the [notebook](https://github.com/KWeatherwalks/DSPortfolio/blob/main/Christina_high_schools_discipline.ipynb) on Github for more details.
+See the [notebook](https://github.com/KWeatherwalks/DSPortfolio/blob/main/Christina_high_schools_discipline.ipynb) on Github for more details about the code and to follow along with the results section.
 
 ### Research Question
 Like any research project, my questions were very broad at the beginning and soon narrowed to something that was answerable with the data provided.  
@@ -31,7 +31,7 @@ __Specific:__ In the 2018-2019 school year, did public high schools in the Chris
 The preferred method to answer this type of question is a $\chi^2$ test for independence between the race category and whether a student was given an out-of-school suspension or not. This method assumes that number of out-of-school suspensions divided by the number of enrolled students in any particular category is the same for every category . That is, all students have an equal chance of receiving at least one out-of-school suspension.
 
 #### Null and Alternate Hypotheses
-To conduct the $chi^2$ test, first define the null hypothesis as there being no relation between racial category and out-of-school suspensions. The alternate hypothesis naturally being that there is such a relation.  
+To conduct the $\chi^2$ test, first define the null hypothesis as there being no relation between racial category and out-of-school suspensions. The alternate hypothesis naturally being that there is such a relation.  
 Set the significance at the standard $\alpha=0.05$ and correct for multiple comparisons using Bonferroni.[cite] With 3 comparisons, an adjusted significance level $\alpha^\prime$ for each test is about $0.016$.
 
 ---
