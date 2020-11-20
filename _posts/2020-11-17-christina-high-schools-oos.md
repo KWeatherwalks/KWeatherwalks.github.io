@@ -1,11 +1,11 @@
 ---
 layout: post
-title: This is only a test
-subtitle: A subtitle of the test by Kevin Weatherwalks
+title: Are Delaware High Schoolers Being Treated Fairly?
+subtitle: An Analysis of Discipline and Race in the Christina School District
 cover-img: /assets/blogresources/bima-rahmanda-4mPo9OVEg7g-unsplash.jpg
 thumbnail-img: /assets/blogresources/bima-rahmanda-4mPo9OVEg7g-unsplash.jpg
 share-img: /assets/blogresources/bima-rahmanda-4mPo9OVEg7g-unsplash.jpg
-tags: [books, test]
+tags: [justice, statistics, antiracist]
 ---
 
 ## Foreword
