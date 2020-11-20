@@ -118,4 +118,4 @@ I know what you're probably thinking. Why is this white cisgender man doing an a
 
 [8]: https://studentprivacy.ed.gov/sites/default/files/resource_document/file/FAQs_disclosure_avoidance_0.pdf
 
-Cover photo: <span>Photo by <a href="https://unsplash.com/@bimarahmanda?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bima Rahmanda</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Cover Photo by <a href="https://unsplash.com/@bimarahmanda?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bima Rahmanda</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
