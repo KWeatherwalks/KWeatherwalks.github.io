@@ -28,17 +28,18 @@ __Specific:__ In the 2018-2019 school year, did public high schools in the Chris
 The preferred method to answer this type of question is a $\chi^2$ test for independence between the race category and whether a student was given an out-of-school suspension or not. This method assumes that number of out-of-school suspensions divided by the number of enrolled students in any particular category is the same for every category . That is, all students have an equal chance of receiving at least one out-of-school suspension.
 
 #### Null and Alternate Hypotheses
-To conduct the test, first define the null hypothesis as there being no relation between racial category and out-of-school suspensions. The alternate hypothesis naturally being that there is such a relation.  
-Set the significance at the standard $\alpha=0.05$ and correct for multiple comparisons using Bonferroni.[cite] With 3 comparisons, an adjusted significance level $\alpha^\prime$ for each test is about $0.0167$.
+To conduct the $chi^2$ test, first define the null hypothesis as there being no relation between racial category and out-of-school suspensions. The alternate hypothesis naturally being that there is such a relation.  
+Set the significance at the standard $\alpha=0.05$ and correct for multiple comparisons using Bonferroni.[cite] With 3 comparisons, an adjusted significance level $\alpha^\prime$ for each test is about $0.016$.
 
 ---
 ## Data Wrangling
 ### Socrata Open Data
-The dataset we will be using is from the data.delaware.gov open data portal \[[1]\] which we will access via Socrata's API endpoints. Through this endpoint, the data comes to us in JSON format and by default is limited to 1000 rows. We can get all the 653,417 rows of the data by appending the url with `$limit=654000` \[[2]\]
+The dataset we will be using is from the data.delaware.gov open data portal which we will access via Socrata's API endpoints.\[[1]\]
+[screenshot of socrata]
+Through this endpoint, the data comes to us in JSON format and by default is limited to 1000 rows. We can get all the 653,417 rows of the data by appending the url with `$limit=654000` \[[2]\]
 
 ### Set up Contingency Tables
-#### Filter functions
-The dataset contains rows consisting of aggregated counts of disciplinary action by subgroup, a derivative of the race, gender and special demo categories. In order to create a two-way (contingency) table with the race category as the index and out-of-school suspension vs. no out-of-school suspension as the columns, we need to filter the dataset. 
+The rows of the dataset contain aggregated counts of disciplinary action by subgroup, a derivative of the race, gender and special demo categories. In order to create a two-way (contingency) table with the race category as the index and out-of-school suspension vs. no out-of-school suspension as the columns, we need to filter the dataset. 
 [insert picture of dataset snippet]
 There is no column for counts of no out-of-school suspension, so we have to create that column using some feature engineering.
 
@@ -47,7 +48,7 @@ There is no column for counts of no out-of-school suspension, so we have to crea
 
 Expected counts are in parentheses to the right of the observed data.
 
-Christiana High School
+#### Christiana High School
 
 |race             | OOS | no_OOS|
 |:--------------- | ---:| -----:|
@@ -62,9 +63,7 @@ Reject $H_0$ at the 0.017 significance level
 <img src="/assets/blogresources/mosaic_390.svg" width="525">
 
 
---------------------------------------
-
-Glasgow High School
+#### Glasgow High School
 
 
 |race             | OOS | no_OOS|
@@ -78,9 +77,7 @@ $\chi^2(3, N=352) = 12.54$, $p = .0057$
 Reject $H_0$ at the 0.017 significance level  
   <img src="/assets/blogresources/mosaic_392.svg" width="525">
 
---------------------------------------
-
-Newark High School
+#### Newark High School
 
 | race             | OOS | no_OOS|
 |:---------------- | ---:| -----:|
@@ -103,7 +100,8 @@ Let me be clear about the conclusions that can be drawn from conducting this ana
 I know what you're probably thinking. Why is this white cisgender man doing an analysis involving race? I have asked myself this same question over the past couple weeks as I worked on this project. My discomfort, and possibly yours, is why I feel obligated to state my beliefs outright in saying black lives matter. Full stop. What I have learned about our country's history and policies in the past few years has upset me as much as it has galvanized. I hope you feel the same.
 
 ## References
-[1]: https://data.delaware.gov/Education/Student-Discipline/yr4w-jdi4 "Student Discipline Data on the Open Data Portal"
+
+[1]: https://data.delaware.gov/Education/Student-Discipline/yr4w-jdi4 "Student Discipline Data on the Open Data Portal" {:target="_blank"}
 
 [2]: https://support.socrata.com/hc/en-us/articles/202949268-How-to-query-more-than-1000-rows-of-a-dataset
 
