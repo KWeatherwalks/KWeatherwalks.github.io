@@ -21,40 +21,44 @@ It is well documented that there is racial inequity in student discipline so thi
 See the notebook on Github.
 
 ## Research Question
-Like any research project, my questions were very broad at the beginning and soon narrowed to something that was answerable with the data provided.
+Like any research project, my questions were very broad at the beginning and soon narrowed to something that was answerable with the data provided.  
 Broad: Is there racial inequity in student disciplinary approaches?  
-Specific: In the 2018-2019 school year, did public high schools in the Christina School District discipline\*[out-of-school suspension] 9th graders with different racial identities in equal proportions?  
+Specific: In the 2018-2019 school year, did public high schools in the Christina School District assign out-of-school suspensions to 9th graders in equal proportions to their race category?  
 
 ### Method
-The method used to answer this question is $\chi^2$ test for independence between the race category and whether a student was given an out-of-school suspension or not. This method assumes that the proportions in each group are commensurate with the number of total out-of-school suspensions and the number of enrolled students\*[check notes]. That is, all students have an equal chance of receiving at least one out-of-school suspension.
+The preferred method to answer this type of question is a $\chi^2$ test for independence between the race category and whether a student was given an out-of-school suspension or not. This method assumes that number of out-of-school suspensions divided by the number of enrolled students in any particular category is the same for every category . That is, all students have an equal chance of receiving at least one out-of-school suspension.
 
 ### Null and Alternate Hypotheses
-To conduct the test, first define the null hypothesis as there being no relation\*[check notes] between racial category and out-of-school suspensions with the alternate hypothesis being that there is such a relation.  
-Set the significance at the standard $\alpha=0.05$ and correct for multiple comparisons using Bonferroni. With 3 comparisons, an adjusted significance level $\alpha^\prime$ for each test is about $0.0167$.
+To conduct the test, first define the null hypothesis as there being no relation between racial category and out-of-school suspensions. The alternate hypothesis naturally being that there is such a relation.  
+Set the significance at the standard $\alpha=0.05$ and correct for multiple comparisons using Bonferroni.[cite] With 3 comparisons, an adjusted significance level $\alpha^\prime$ for each test is about $0.0167$.
 
 # Data Wrangling
 ## Socrata Open Data
 The dataset we will be using is from the data.delaware.gov open data portal \[[1]\] which we will access via Socrata's API endpoints. Through this endpoint, the data comes to us in JSON format and by default is limited to 1000 rows. We can get all the 653,417 rows of the data by appending the url with `$limit=654000` \[[2]\]
 
 ## Filter functions
-The format of the dataset contains
+The format of the dataset contains many rows 
+
+[insert picture of dataset snippet]
 
 ## Set up Contingency Tables
 
 
 # Results and Visualizations
 
+Expected counts are in parentheses to the right of the observed data.
+
 Christiana High School
 
 |race             | OOS | no_OOS|
 |:--------------- | ---:| -----:|
-|Hispanic/Latino  |  8(14.4) |  34(27.6) |
-|African American | 62(46.2) |  73(88.8) |
-|White            | 14(15.4) |  31(29.6) |
-|Other            |  3(11.0) |  29(21.0) |
+|Hispanic/Latino  |  8 (14.4) |  34 (27.6) |
+|African American | 62 (46.2) |  73 (88.8) |
+|White            | 14 (15.4) |  31 (29.6) |
+|Other            |  3 (11.0) |  29 (21.0) |
 
 $\chi^2(3, N=254) = 21.47$, 
-$p < .001$ 
+$p < .001$  
 Reject $H_0$ at the 0.017 significance level  
 <img src="/assets/blogresources/mosaic_390.svg" width="525">
 
@@ -66,10 +70,10 @@ Glasgow High School
 
 |race             | OOS | no_OOS|
 |:--------------- | ---:| -----:|
-|Hispanic/Latino  | 21(25.6) |   75(70.4)|
-|African American | 60(45.9) |  112(126.1)|
-|White            |  9(16.6) |   53(45.4)|
-|Other            |  4(5.9) |    18(16.1)|
+|Hispanic/Latino  | 21 (25.6) |   75 (70.4)|
+|African American | 60 (45.9) |  112 (126.1)|
+|White            |  9 (16.6) |   53 (45.4)|
+|Other            |  4 (5.9) |    18 (16.1)|
 
 $\chi^2(3, N=352) = 12.54$, $p = .0057$  
 Reject $H_0$ at the 0.017 significance level  
@@ -81,9 +85,9 @@ Newark High School
 
 | race             | OOS | no_OOS|
 |:---------------- | ---:| -----:|
-| Hispanic/Latino  | 20(21.3) |   60(58.7)|
-| African American | 86(57.7) |  131(159.3)|
-| Other            | 11(38.0) |   132(105.0)|
+| Hispanic/Latino  | 20 (21.3) |   60 (58.7)|
+| African American | 86 (57.7) |  131 (159.3)|
+| Other            | 11 (38.0) |   132 (105.0)|
 
 $\chi^2(2, N=440) = 45.17$, 
 $p<.001$  
@@ -93,8 +97,8 @@ Reject $H_0$ at the 0.017 significance level
 <img src="/assets/blogresources/chi2_distributions.svg" width="600">
 
 # Conclusion
-For all three schools, we reject the null hypothesis at the .017 significance level and conclude that there is a relationship between racial category and receiving out-of-school suspension.
-I need to be clear about the conclusions that can be drawn from conducting this analysis. The analysis presented here cannot explain *why* there are differences in disciplinary action due to racial identity. It can only illuminate the reality that such differences exist. I think I'll leave that big question to sociology experts until I understand more about proper methods and study designs.  
+For all three schools, we reject the null hypothesis at the .017 significance level and conclude that there is a relationship between racial category and receiving out-of-school suspension.  
+Let me be clear about the conclusions that can be drawn from conducting this analysis. The analysis presented here cannot explain *why* there are differences in disciplinary action due to racial identity. It can only illuminate the reality that such differences exist. 
 
 # References
 [1]: https://data.delaware.gov/Education/Student-Discipline/yr4w-jdi4 "Student Discipline Data on the Open Data Portal"
