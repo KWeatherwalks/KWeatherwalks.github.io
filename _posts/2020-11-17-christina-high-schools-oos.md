@@ -56,12 +56,12 @@ Expected counts are in parentheses to the right of the observed data.
 
 #### Christiana High School
 
-|race             | OOS | no_OOS|
-|:--------------- | ---:| -----:|
-|Hispanic/Latino  |  8 (14.4) |  34 (27.6) |
-|African American | 62 (46.2) |  73 (88.8) |
-|White            | 14 (15.4) |  31 (29.6) |
-|Other            |  3 (11.0) |  29 (21.0) |
+| race             |       OOS |    no_OOS |
+|:-----------------|----------:|----------:|
+| Hispanic/Latino  |  8 (14.4) | 34 (27.6) |
+| African American | 62 (46.2) | 73 (88.8) |
+| White            | 14 (15.4) | 31 (29.6) |
+| Other            |  3 (11.0) | 29 (21.0) |
 
 $\chi^2(3, N=254) = 21.47$, 
 $p < .001$  
@@ -72,12 +72,12 @@ Reject $H_0$ at the 0.017 significance level
 #### Glasgow High School
 
 
-|race             | OOS | no_OOS|
-|:--------------- | ---:| -----:|
-|Hispanic/Latino  | 21 (25.6) |   75 (70.4)|
-|African American | 60 (45.9) |  112 (126.1)|
-|White            |  9 (16.6) |   53 (45.4)|
-|Other            |  4 (5.9) |    18 (16.1)|
+| race             |       OOS |      no_OOS |
+|:-----------------|----------:|------------:|
+| Hispanic/Latino  | 21 (25.6) |   75 (70.4) |
+| African American | 60 (45.9) | 112 (126.1) |
+| White            |  9 (16.6) |   53 (45.4) |
+| Other            |   4 (5.9) |   18 (16.1) |
 
 $\chi^2(3, N=352) = 12.54$, $p = .0057$  
 Reject $H_0$ at the 0.017 significance level  
@@ -85,11 +85,11 @@ Reject $H_0$ at the 0.017 significance level
 
 #### Newark High School
 
-| race             | OOS | no_OOS|
-|:---------------- | ---:| -----:|
-| Hispanic/Latino  | 20 (21.3) |   60 (58.7)|
-| African American | 86 (57.7) |  131 (159.3)|
-| Other            | 11 (38.0) |   132 (105.0)|
+| race             |       OOS |      no_OOS |
+|:-----------------|----------:|------------:|
+| Hispanic/Latino  | 20 (21.3) |   60 (58.7) |
+| African American | 86 (57.7) | 131 (159.3) |
+| Other            | 11 (38.0) | 132 (105.0) |
 
 $\chi^2(2, N=440) = 45.17$, 
 $p<.001$  
