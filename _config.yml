@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Home
+title: KevinWeatherwalks.com
 
 # Your name to show in the footer
 author: Kevin Weatherwalks
@@ -14,9 +14,11 @@ author: Kevin Weatherwalks
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Projects: 
+    - DS Quiz: "/projects/DSQuiz"
   About Me: "aboutme"
-#   Resources:
-#     - Lambda School: "https://lambdaschool.com"
+  # Resources:
+  #   - Lambda School: "https://lambdaschool.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
 #   Author's home: "https://deanattali.com"
 
@@ -215,6 +217,13 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+
+  -
+    scope:
+      path: "/projects/"
+    values:
+      layout:
+        "page"
 
 # Exclude these files from production site
 exclude:
