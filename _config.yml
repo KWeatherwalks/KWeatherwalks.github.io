@@ -33,9 +33,6 @@ round-avatar: true
 # then specify the following parameter
 # title-img: /assets/img/avatar-icon.png
 
-# --- Site-wide Header Image ---  I added this: it doesn't seem to be supported by BJekyll though#
-header: /assets/img/banner.png
-
 # --- Footer social media links --- #
 
 # Select the social network links that you want to show in the footer.
@@ -114,8 +111,8 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
+# navbar-img: "/assets/img/banner.png"
+footer-img: "/assets/img/banner.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
