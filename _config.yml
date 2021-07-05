@@ -33,8 +33,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
-
+# title-img: /assets/img/avatar-icon.png
 
 # --- Footer social media links --- #
 
@@ -94,7 +93,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "data science, kevin weatherwalks"
 
 # --- Colours / background image --- #
 
@@ -115,7 +114,7 @@ footer-link-col: "#404040"
 # instead of colour
 
 # navbar-img: "/assets/img/banner.png"
-#footer-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/banner.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
