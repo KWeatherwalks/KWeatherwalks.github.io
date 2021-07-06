@@ -45,9 +45,10 @@ social-network-links:
   github: KWeatherwalks
   twitter: kweatherwalks
   stackoverflow: "9882940/kevin-weatherwalks"
+#  youtube: c/kweatherwalks
+#  twitch: kweatherwalks
 #  patreon: "KWeatherwalks"
 #  reddit: kweatherwalks
-#  youtube: c/kweatherwalks
 #  xing: yourname
 #  stackoverflow: "9882940/kevin-weatherwalks"
 #  snapchat: deanat78
@@ -55,7 +56,6 @@ social-network-links:
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
-#  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
@@ -99,23 +99,23 @@ keywords: "data science, kevin weatherwalks"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
+navbar-col: "#999999"
+navbar-text-col: "#F0F0F0"
+navbar-border-col: "#999999"
+page-col: "#F0F0F0"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+footer-text-col: "#999999"
 footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-# navbar-img: "/assets/img/banner.png"
-footer-img: "/assets/img/banner.png"
-#page-img: "/assets/img/bgimage.png"
+navbar-img: "/assets/img/header.png"
+footer-img: "/assets/img/footer.png"
+# page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
