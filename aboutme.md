@@ -16,9 +16,23 @@ Reach out to me at kevin.weatherwalks@gmail.com to talk more about how I can hel
 
 #### Things I enjoy
 
-I'm an avid user of both Todoist and Notion to organize my work.  
-I spend 15 minutes every morning learning German and French on Duolingo.  
-I enjoy walking and hiking with my fiancee around the parks in Newark while catching Pokemon in Pokemon Go.  
-I like to use [Elevate](https://elevateapp.com/) every day to improve my reading, writing, and editing skills.
-I love to cook. It's an activity that blends scientific thinking and artistic creation in a delightful way.  
-I like watching Jeopardy! and SNL, filling in crossword puzzles during the commercial breaks.
+- Organizing my work with Todoist and Notion so I can GTD.  
+- Learning German, French, Spanish, and Korean on Duolingo by practicing for 15 minutes every day.  
+- Walking and hiking with my fiancée around the parks in Newark while catching Pokémon in Pokémon Go.  
+- Improving my writing, editing, and reading skills with [Elevate](https://elevateapp.com/).
+- Cooking — it's an activity that blends scientific thinking and artistic creation in a delightful way.  
+- Watching *Jeopardy!* and *SNL*, filling in crossword puzzles during the commercial breaks.  
+
+---
+
+#### Currently Reading
+
+{% include goodreads-currently-reading.html %}
+
+#### Recent Reads
+
+{% include goodreads-recent-reads.html %}
+
+#### Favorite Quotes
+
+{% include goodreads-quotes.html %}
