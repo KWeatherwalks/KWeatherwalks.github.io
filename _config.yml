@@ -15,6 +15,7 @@ author: Kevin Weatherwalks
 
 navbar-links:
   Projects: 
+    - Right Price Airbnb: "http://rightpriceairbnb.herokuapp.com/about"
     - DS Quiz: "/projects/DSQuiz"
   About Me: "aboutme"
   # Resources:
