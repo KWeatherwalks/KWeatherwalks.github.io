@@ -31,13 +31,9 @@ Reach out to me at kevin.weatherwalks@gmail.com to talk more about how I can hel
 
 {% include goodreads-currently-reading.html %}
 
----
-
 ### Recently Read
 
 {% include goodreads-recent-reads.html %}
-
----
 
 ### Favorite Quotes
 
