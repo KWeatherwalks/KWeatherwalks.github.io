@@ -25,14 +25,20 @@ Reach out to me at kevin.weatherwalks@gmail.com to talk more about how I can hel
 
 ---
 
-#### Currently Reading
+## Things I read
+
+### Currently Reading
 
 {% include goodreads-currently-reading.html %}
 
-#### Recent Reads
+---
+
+### Recently Read
 
 {% include goodreads-recent-reads.html %}
 
-#### Favorite Quotes
+---
+
+### Favorite Quotes
 
 {% include goodreads-quotes.html %}
