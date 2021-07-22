@@ -15,9 +15,9 @@ author: Kevin Weatherwalks
 
 navbar-links:
   Blog:
-    - Portfolio: "/category/portfolio"
     - Learn in Public: "/category/learn-in-public"
     - All: "/"
+  Portfolio: "/category/portfolio"
   Projects: 
     - Right Price Airbnb: "http://rightpriceairbnb.herokuapp.com/about"
     # - DS Quiz: "/projects/DSQuiz"

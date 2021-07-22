@@ -5,8 +5,8 @@ layout: default
 <div class="blog list">
     <h1>Filed Under <small>#{{ page.tag }}</small></h1>
 
+    {% for post in site.categories[page.tag] %}
     <article class="post-preview">
-        {% for post in site.categories[page.tag] %}
         {%- capture thumbnail -%}
         {% if post.thumbnail-img %}
         {{ post.thumbnail-img }}
@@ -83,6 +83,6 @@ layout: default
         {% endif %}
 
 
-        {% endfor %}
     </article>
+    {% endfor %}
 </div>
