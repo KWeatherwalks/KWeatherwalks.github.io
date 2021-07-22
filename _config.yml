@@ -203,6 +203,11 @@ paginate: 5
 kramdown:
   input: GFM
 
+# Category Collections # Added by me
+collections:
+  category:
+    output: true
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -251,9 +256,3 @@ plugins:
 # 2fc73a3a967e97599c9763d05e564189
 
 
-# Category Collections
-collections:
-  category:
-    output: true
-
-defaults:
