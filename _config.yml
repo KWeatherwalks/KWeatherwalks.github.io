@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: KevinWeatherwalks.com
+title: Kevin Weatherwalks
 
 # Your name to show in the footer
 author: Kevin Weatherwalks
@@ -14,9 +14,13 @@ author: Kevin Weatherwalks
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Blog:
+    - Learn in Public: "/category/learn-in-public"
+    - All: "/"
+  Portfolio: "/category/portfolio"
   Projects: 
     - Right Price Airbnb: "http://rightpriceairbnb.herokuapp.com/about"
-    - DS Quiz: "/projects/DSQuiz"
+    # - DS Quiz: "/projects/DSQuiz"
   About Me: "aboutme"
   # Resources:
   #   - Lambda School: "https://lambdaschool.com"
@@ -46,12 +50,11 @@ social-network-links:
   github: KWeatherwalks
   twitter: kweatherwalks
   stackoverflow: "9882940/kevin-weatherwalks"
-#  youtube: c/kweatherwalks
+#  youtube: c/kevin.weatherwalks
 #  twitch: kweatherwalks
 #  patreon: "KWeatherwalks"
 #  reddit: kweatherwalks
 #  xing: yourname
-#  stackoverflow: "9882940/kevin-weatherwalks"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
@@ -203,6 +206,11 @@ paginate: 5
 kramdown:
   input: GFM
 
+# Category Collections # Added by me
+collections:
+  category:
+    output: true
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -225,6 +233,12 @@ defaults:
     values:
       layout:
         "page"
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
 
 # Exclude these files from production site
 exclude:
@@ -243,3 +257,5 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+
