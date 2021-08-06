@@ -3,6 +3,7 @@ title: Learning in Public
 permalink: "/blog/learn-in-public"
 date: 2021-07-29 13:00
 layout: "post"
+cover-img: "/assets/blogresources/learn-in-public/annie-spratt-hCb3lIB8L8E-unsplash-cropped.jpg"
 author:  Kevin Weatherwalks
 categories: 
     - "learn-in-public"
