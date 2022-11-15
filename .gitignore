@@ -1,5 +1,6 @@
 # development
 .vscode
+docker-compose.yml
 
 # project
 _site
@@ -14,3 +15,4 @@ ehthumbs.db
 Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
+

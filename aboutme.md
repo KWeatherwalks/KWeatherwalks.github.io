@@ -35,16 +35,20 @@ I use [Goodreads](https://www.goodreads.com/user/show/22576651-kevin) to keep tr
 
 ### Currently Reading
 
-{% include goodreads-currently-reading.html %}
+
+{% include goodreads-currently-reading.html %}  
+
 
 ### Recently Read
+  
 
-{% include goodreads-recent-reads.html %}
+{% include goodreads-recent-reads.html %}  
+  
 
 ### Favorite Quotes
-
-{% include goodreads-quotes.html %}
-
+  
+{% include goodreads-quotes.html %}  
+  
 ---
 
 ## My Learner Profiles

@@ -307,6 +307,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - docker-compose.yml
 
 plugins:
   - jekyll-paginate
