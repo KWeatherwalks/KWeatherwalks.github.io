@@ -1,6 +1,7 @@
 # development
 .vscode
 docker-compose.yml
+*.code-workspace
 
 # project
 _site
