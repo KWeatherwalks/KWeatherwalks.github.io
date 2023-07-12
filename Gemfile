@@ -4,6 +4,11 @@ source "https://rubygems.org"
 
 gemspec
 
+gem "jekyll-github-metadata"
+gem "jemoji"
+gem "jekyll-mentions"
+gem "jekyll-redirect-from"
+
 gem 'tzinfo', '1.2.3'
 gem 'tzinfo-data', '1.2017.2'
 

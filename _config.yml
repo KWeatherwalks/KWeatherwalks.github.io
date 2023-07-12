@@ -314,9 +314,22 @@ exclude:
   - docker-compose.yml
 
 plugins:
+  - jekyll-github-metadata
+  - jekyll-mentions
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-sitemap
+  - jemoji
 
+# For local development
+repository: "KWeatherwalks/KWeatherwalks.github.io"
+
+gems:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
