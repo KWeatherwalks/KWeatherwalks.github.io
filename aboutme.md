@@ -25,6 +25,7 @@ Schedule time with me at https://calendly.com/kevin-weatherwalks to talk about h
 - Walking around our beautiful neighborhood with my wife and dog.
 - Cooking — it's an activity that blends scientific thinking and artistic creation in a delightful way.
 - Completing a set of daily puzzles including the NYT's Wordle, Spelling Bee, and Daily Crossword.
+
 ---
 
 ## Things I read

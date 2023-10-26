@@ -24,14 +24,11 @@ navbar-links:
     - Learn in Public: "/category/learn-in-public"
     - All: "/"
   Portfolio: "/category/portfolio"
-  Projects: 
-    - Right Price Airbnb: "http://rightpriceairbnb.herokuapp.com/about"
-    # - DS Quiz: "/projects/DSQuiz"
+  Projects:
+    - Right Price Airbnb: "https://rightpriceairbnb.azurewebsites.net"
   About Me: "aboutme"
-  # Resources:
-  #   - Lambda School: "https://lambdaschool.com"
-#     - Learn markdown: "https://www.markdowntutorial.com/"
-#   Author's home: "https://deanattali.com"
+
+
 
 ################
 # --- Logo --- #
@@ -59,16 +56,17 @@ social-network-links:
   email: "kevin.weatherwalks@gmail.com"
   linkedin: "kevin-weatherwalks"
   github: KWeatherwalks
-  mastodon: mastodon.social/@KevinWeatherwalks
   mastodon: hachyderm.io/@KevinWeatherwalks
-  twitter: kweatherwalks
+  calendly: kevin-weatherwalks
   stackoverflow: "9882940/kevin-weatherwalks"
   patreon: "KWeatherwalks"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  telephone: +13024390703
+#  youtube: c/kevinweatherwalks
+#  telephone: +13024390703
+#  hackerrank: yourname
 #  reddit: kweatherwalks
-#  youtube: c/kevin.weatherwalks
 #  twitch: kweatherwalks
+#  twitter: kweatherwalks
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -79,14 +77,12 @@ social-network-links:
 #  steam: deanat78
 #  yelp: yourname
 #  telegram: yourname
-#  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
 #  kaggle: yourname
-#  hackerrank: yourname
 #  gitlab: yourname
 
 # If you want your website to generate an RSS feed, provide a description
@@ -217,7 +213,7 @@ footer-img: "/assets/img/Footer.png"
 utterances: 
   repository: "KWeatherwalks/KWeatherwalks.github.io"
   issue-term: "pathname"   # Mapping between blog posts and GitHub issues
-  theme: "boxy-light" # Utterances theme
+  theme: "dark-blue" # Utterances theme
   label: "✨💬✨ comment ✨💬✨" # Label that will be assigned to GitHub Issues created by Utterances
 
 # To use Staticman comments, uncomment the following section. You may leave the reCaptcha
@@ -331,12 +327,6 @@ plugins:
 # For local development
 repository: "KWeatherwalks/KWeatherwalks.github.io"
 
-gems:
-- jekyll-github-metadata
-- jekyll-mentions
-- jekyll-redirect-from
-- jekyll-sitemap
-- jemoji
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 

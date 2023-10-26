@@ -4,10 +4,12 @@ source "https://rubygems.org"
 
 gemspec
 
+gem "faraday-retry"
 gem "jekyll-github-metadata"
-gem "jemoji"
 gem "jekyll-mentions"
+gem "jekyll-paginate"
 gem "jekyll-redirect-from"
+gem "jemoji"
 
 gem 'tzinfo', '1.2.3'
 gem 'tzinfo-data', '1.2017.2'
