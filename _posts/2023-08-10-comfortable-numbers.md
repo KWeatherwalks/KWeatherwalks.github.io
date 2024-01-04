@@ -6,10 +6,12 @@ subtitle: Using Memoization in Python to Crack a Coding Challenge
 thumbnail-img: "assets/blogresources/code-challenge/python_rock_guitar.png"
 date: 2023-08-08 16:35
 categories:
-    - "code-challenge"
+  - "code-challenge"
+  - "write-in-public"
 author: Kevin Weatherwalks
-tags: 
+tags: writing-in-public/draft
 ---
+{% include writing-in-public/draft.md %}
 
 # Introduction
 
@@ -17,8 +19,14 @@ tags:
 
 ## Problem Statement
 
-> Let's say that number `a` feels _comfortable_ with number `b` if `a ≠ b` and `b` lies in the segment `[a - s(a), a + s(a)]`, where `s(x)` is the sum of `x`'s digits.  
-> How many pairs `(a, b)` are there, such that `a < b`, both `a` and `b` lie on the segment `[l, r]`, and each number feels _comfortable_ with the other (so `a` feels _comfortable_ with `b` and `b` feels _comfortable_ with `a`)?  
+> Let's say that 
+> number `a` feels _comfortable_ with number `b` 
+> if `a ≠ b` and `b` lies in the segment `[a - s(a), a + s(a)]`, 
+> where `s(x)` is the sum of `x`'s digits.  
+> How many pairs `(a, b)` are there, 
+> such that `a < b`, both `a` and `b` lie on the segment `[l, r]`, 
+> and each number feels _comfortable_ with the other (so `a` feels _comfortable_ with `b` and `b` feels _comfortable_ with `a`)?  
+> 
 > Example  
 > For `l = 10` and `r = 12`, the output should be  
 > `solution(l, r) = 2`.  
