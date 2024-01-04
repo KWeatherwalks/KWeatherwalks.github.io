@@ -22,6 +22,7 @@ author: Kevin Weatherwalks
 navbar-links:
   Blog:
     - Learn in Public: "/category/learn-in-public"
+    - Write in Public: "/category/write-in-public"
     - All: "/"
   Portfolio: "/category/portfolio"
   Projects:
@@ -64,30 +65,17 @@ social-network-links:
 #  youtube: c/kevinweatherwalks
 #  telephone: +13024390703
 #  hackerrank: yourname
-#  reddit: kweatherwalks
-#  twitch: kweatherwalks
-#  twitter: kweatherwalks
-#  medium: yourname
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  steam: deanat78
-#  yelp: yourname
-#  telegram: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+#  reddit: kweatherwalks
+#  twitter: kweatherwalks
+#  twitch: kweatherwalks
+#  google-scholar: your google scholar
 #  kaggle: yourname
 #  gitlab: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-# rss-description: This website is a virtual proof that I'm awesome
+rss-description: Kevin Weatherwalks' blog and portfolio
 
 ###########################
 # --- General options --- #
@@ -253,9 +241,6 @@ utterances:
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
 
-# Facebook App ID
-#fb_app_id: ""
-
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #
 #################################################################################
@@ -329,5 +314,3 @@ repository: "KWeatherwalks/KWeatherwalks.github.io"
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-
