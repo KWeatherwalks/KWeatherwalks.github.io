@@ -54,15 +54,15 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "kevin.weatherwalks@gmail.com"
   linkedin: "kevin-weatherwalks"
   github: KWeatherwalks
-  mastodon: hachyderm.io/@KevinWeatherwalks
   calendly: kevin-weatherwalks
+  mastodon: hachyderm.io/@KevinWeatherwalks
+  email: "kevin.weatherwalks@gmail.com"
+  youtube: c/kevinweatherwalks
   stackoverflow: "9882940/kevin-weatherwalks"
   patreon: "KWeatherwalks"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  youtube: c/kevinweatherwalks
 #  telephone: +13024390703
 #  hackerrank: yourname
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
